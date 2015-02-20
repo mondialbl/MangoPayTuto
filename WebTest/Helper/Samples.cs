@@ -18,31 +18,13 @@ namespace Helper
     {
 
 
-        public static string _sandbox_John_UserId = "5775821";
-        public static string _sandbox_Julie_UserId = "5776936";
-        public static string _sandbox_John_WalletId = "5776455";
-        public static string _sandbox_Julie_WalletId = "5776938";
+        private static string _sandbox_John_UserId = "5775821";
+        private static string _sandbox_Julie_UserId = "5776936";
+        private static string _sandbox_John_WalletId = "5776455";
+        private static string _sandbox_Julie_WalletId = "5776938";
 
-        public static string _sandbox_John_CardId = "5802446";
-        public static string _sandbox_John_CardRegistrationId = "5802445"; //A choper.The validity of a registered card (CardId) before a payment or a pre-authorisation is  30min maximum. Once one of these operations is made, the card « validity » field change to « VALID ». Then,it is available up to the expiry date.
-
-
-
-
-        public static string GetAllUsers(MangoPayApi api)
-        {
-            string str = "<br>GetAllUsers<br>";
-
-            ListPaginated<UserDTO> users = api.Users.GetAll();
-
-            str += "Nbr Users : " + users.Count + "<br>";
-
-            foreach (UserDTO user in users)
-                str += "user : " + user.Email + "<br>";
-
-            return str;
-
-        }
+        private static string _sandbox_John_CardId = "5802446";
+        private static string _sandbox_John_CardRegistrationId = "5802445"; //A choper.The validity of a registered card (CardId) before a payment or a pre-authorisation is  30min maximum. Once one of these operations is made, the card « validity » field change to « VALID ». Then,it is available up to the expiry date.
 
 
         public static UserNaturalDTO CreateUserJohn(MangoPayApi api)
