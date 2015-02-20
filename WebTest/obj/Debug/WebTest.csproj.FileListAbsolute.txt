@@ -1,0 +1,15 @@
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\WebTest.dll.config
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\WebTest.dll
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\WebTest.pdb
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\MangoPay.SDK.dll
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\RestSharp.dll
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\Newtonsoft.Json.dll
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\Common.Logging.Core.dll
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\MangoPay.SDK.pdb
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\RestSharp.xml
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\Newtonsoft.Json.xml
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\Common.Logging.Core.pdb
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\bin\Common.Logging.Core.xml
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\obj\Debug\WebTest.csprojResolveAssemblyReference.cache
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\obj\Debug\WebTest.dll
+F:\Projets\Test\mangopay2-net-sdk-master\WebTest\obj\Debug\WebTest.pdb
