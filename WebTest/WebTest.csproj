@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MangoPay1.aspx" />
+    <Content Include="Tuto.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +94,13 @@
     <Compile Include="Helper\ReactorCreditCard.cs" />
     <Compile Include="Helper\Samples.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tuto.aspx.cs">
+      <DependentUpon>Tuto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tuto.aspx.designer.cs">
+      <DependentUpon>Tuto.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MangoPay.SDK\MangoPay.SDK.csproj">
